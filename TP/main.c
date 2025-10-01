@@ -7,8 +7,8 @@ int main(){
     do {
         printf("\n================== MENU ==================\n");
         printf("1. Suppression des occurences dans la liste (simple)\n");
-        printf("2. Insertion en position (liste simple trier)\n");
-        printf("3. Insertion en position (liste double trier)\n");
+        printf("2. Insertion en position dans une (liste simple trier)\n");
+        printf("3. Insertion en position dans une (liste double trier)\n");
         printf("4. Insertion en tete (liste simplement circulaire)\n");
         printf("5. Insertion en fin (liste simplement circulaire)\n");
         printf("6. Insertion en tete (liste doublement circulaire)\n");
@@ -23,7 +23,7 @@ int main(){
         }
 
         switch(choix){
-            case 1:
+               case 1:
                 printf("Combien de nombres à insérer dans la liste simple ? ");
                 scanf("%d", &n);
                 for(i = 0; i < n; i++){

@@ -1,0 +1,35 @@
+Projet 231 : Opérations sur les listes chainées
+
+Description
+
+   Ce TP regroupe plusieurs algorithmes classiques et opérations sur les listes chainées (simples, doublement, circulaires).
+   L’utilisateur interagit via un menu et peut choisir parmis différentes fonctionnalités :
+   Insertion en position quelconque dans une liste simple triée, Insertion en position quelconque dans une liste doublement triée 
+  , supprimer les occurences dans une liste chainée simple, insertion en (tete et fin) dans une liste 
+  chainée ( simplement et doublement) circulaires, etc.
+
+Organisation des fichiers
+
+    fichier.h → fichier d’en-tête qui contient toutes les déclarations des fonctions.
+    fichier.c → fichier source qui contient l’implémentation des fonctions.
+    main.c → programme principal qui propose un menu interactif pour tester les fonctions.
+
+Fonctionnalités disponibles
+
+Opération 	Description 	
+Suppresion des occurences dans une liste chainee simple 	supprimer la valeur qui se repete dans la liste 	
+Insertion en position dans une liste simple triée 	inserer une valeur en tete , en fin ou au milieu dans une liste simple triée 	
+Insertion en position dans une liste double triée 	inserer une valeur en tete , en fin ou au milieu dans une liste doublement triée 	
+Insertion en tete dans une liste simplement circulaire 	inserer une valeur en tete de liste dans une liste chainée simplement circulaire donc le dernier noeud pointe vers la tete. 	
+Insertion en fin dans une liste simplement circulaire 	inserer une valeur en fin de liste dans une liste chainée simplement circulaire donc le dernier noeud pointe vers la tete. 	
+Insertion en tete dans une liste doublement chainée circulaire 	inserer une valeur en tete de liste dans une liste chainée doublement circulaire donc le dernier noeud pointe vers la tete. 	
+Insertion en fin dans une liste doublement circulaire 	inserer une valeur en fin de liste dans une liste chainée doublement circulaire donc le dernier noeud pointe vers la tete. 	
+Vider la liste avant toute autre operations 	vider la liste pour eviter le melange des operations sur les listes chainées. 	
+Quitter 	Sort du programme 	-
+
+
+Compilation et exécution
+   gcc main.c fichier.c -o programme  et ./main
+ 
+  
+
