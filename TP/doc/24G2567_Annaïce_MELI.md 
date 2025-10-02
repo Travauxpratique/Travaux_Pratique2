@@ -1,1 +1,47 @@
-mon cahier de suivi
+MON CAHIER DE SUIVI 
+
+Matricule: 24G2567
+Nom: MELI TAZO 
+Prénom: ANNAÏCE 
+Filière:Informatique L2
+
+SÉANCE 1: PLANIFICATION ET MODÉLISATION INITIALE 
+
+OBJECTIFS :
+
+ * Lecture et compréhension de l'énoncé du Travail Pratique (TP).
+ * Définition des structures de données de base (cellule, liste).
+ * Modélisation des différentes fonctionnalités à coder (signatures de fonctions).
+Fonctionnalités à Implémenter
+ * Suppression des occurrences dans une liste chaînée.
+ * Insertion en position dans une liste simplement triée.
+ * Insertion en position dans une liste doublement triée.
+ * Insertion en tête dans une liste simplement circulaire.
+ * Insertion en fin dans une liste simplement circulaire.
+ * Insertion en tête dans une liste doublement circulaire.
+ * Insertion en fin dans une liste doublement circulaire.
+
+Mise en place de la Structure Modulaire
+Pour une organisation optimale du code, le projet est structuré en trois fichiers principaux :
+
+ * fichier.h : Contient toutes les déclarations des fonctions (prototypes) et les définitions des structures (struct).
+ * fichier.c : Contient l'implémentation des fonctions déclarées dans le fichier .h.
+ * main.c : Propose un menu interactif pour tester l'ensemble des fonctions implémentées.
+
+SÉANCE 2 : IMPLÉMENTATION DES OPÉRATIONS CLÉS SUR LES LISTES 
+
+TÂCHES ET PRINCIPES TECHNIQUES 
+
+ * Suppression des occurrences dans une liste chaînée :
+
+   * Objectif : Libérer l'espace mémoire des cellules qui possèdent la même valeur ou données. Utilisation de la fonction free().
+
+ * Insertion en position dans une liste simplement et doublement triée :
+   * Objectif : Insérer l'élément tout en maintenant l'ordre trié.
+   * Logique : L'élément est inséré en tête s'il est plus petit, en fin s'il est plus grand, ou au milieu sinon.
+ * Insertion en tête dans une liste (simplement et doublement) chaînée circulaire :
+   * Objectif : Insérer un élément en tête.
+   * Spécificité : Le pointeur prédécesseur (dans la doublement chaînée) pointe vers NULL. Le dernier nœud doit pointer sur le nouvel élément head.
+ * Insertion en fin dans une liste (simplement et doublement) chaînée circulaire :
+   * Objectif : Insérer un élément en fin de liste.
+   * Spécificité : Le pointeur suivant du nouvel élément (qui est désormais le dernier) doit pointer sur la head de la liste.
